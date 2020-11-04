@@ -1,0 +1,261 @@
+/* General CSS */
+body, html {
+  padding: 0; 
+  margin: 0;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+  background-image: url("img/main_sml.jpg");
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+/* CSS for the div's in the headerNavIntroContainer */
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 2em; 
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: gray;
+}
+
+.intro { 
+  margin-top: 8em;
+  margin-bottom: 8em;
+  width: 100%; 
+  text-align: center;
+  color: white;
+}
+
+.intro h2 {
+  font-size: 2.4em;
+}
+
+.intro p {
+  font-size: 1.5em;
+}
+
+/* Second section's CSS for the article */
+.firstArt {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 3em;
+  height: auto;
+}
+
+.firstArt h2 {
+  margin: 0;
+}
+
+.firstArt p {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 3em;
+}
+
+/* CSS used for the main div and all contained */
+main {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: black;
+  text-align: center;
+}
+
+main a {
+  margin: 0;
+}
+
+/* Footer CSS */
+footer {
+  padding: 2em 5em 1em 5em;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  margin: 0;
+}
+
+/*********************************************************************************************/
+
+.viewEventsSection 
+{
+  background-color: white;
+}
+
+.eventCell
+{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.eventCellDark
+{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.infoTitle
+{
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.infoDesc
+{
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 90%;
+  padding-bottom: 1em;
+}
+
+.infoStrEnd
+{
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+/*********************************************************************************************/
+
+.adminPanel
+{
+  background-color: white;
+}
+
+.buttonContainer
+{
+  text-align: center;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/*********************************************************************************************/
+
+.addEventPanel
+{
+  background-color: white;
+  text-align: center;
+}
+
+.addEventTitle
+{
+  padding-top: 1em;
+}
+
+.formDiv
+{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.formLabel
+{
+  display: inline-block;
+  width: 100%;
+}
+
+.formInput
+{
+  width: 25em;
+}
+
+.eventButtons
+{
+  padding-bottom: 1em;
+}
+
+
+/*********************************************************************************************/
+
+.editEventPanel
+{
+  background-color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.editAll
+{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*********************************************************************************************/
+
+.creditsPanel
+{
+  background-color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.credits
+{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

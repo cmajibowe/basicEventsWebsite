@@ -1,0 +1,75 @@
+<!doctype html>
+<html id="top" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="source.css">
+    <title>Arts and Events</title>
+  </head>
+
+  <body>
+    
+    <!-- Div used to control the container, not used for styling -->
+    <div class="headerNavIntroContainer">
+      <!-- Any styling is done using the semantic tags -->
+      <header>
+        <h1>Arts and Events</h1>
+      </header>
+
+      <nav>
+        <!-- Access keys using numbers for anyone that requires them -->
+        <a href="/index.html" accesskey="1">Home</a>
+        <a href="/viewEvents.php" accesskey="2">View Events</a>
+        <a href="/admin.php" accesskey="3">Admin</a>
+        <a href="/credits.html" accesskey="4">Credits</a>
+        <a href="wireframe.pdf" accesskey="5" target="_blank">Wireframe</a>
+      </nav>
+
+      <section class="intro">
+        <h2>Discover</h2>
+        <p>The perfect view</p>
+        <!-- Arrow allows users to navigate the page rather than scrolling -->
+        <a href="#first"><img src="img/arrow.png" alt="Down Arrow" /></a>
+      </section>
+    </div>
+
+    <article class="firstArt" id="first">
+      <!-- First event section -->
+      <h2>Art-World Exclusive</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat lorem dapibus diam feugiat, sit amet mattis dolor ullamcorper. </p>
+      <img src="img/pac_sml.jpg" alt="Fruit Pac-man" />
+      <p class="firstArtBPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat lorem dapibus diam feugiat, sit amet mattis dolor ullamcorper. Donec sit amet interdum augue, sed blandit neque. Vivamus accumsan, metus eu commodo vehicula, neque magna gravida magna, quis maximus lorem augue a felis. Sed eget mi malesuada, pellentesque lectus in, semper nulla. Integer rhoncus sapien vel arcu tristique, sed posuere neque laoreet. Pellentesque vel libero nec tellus vestibulum semper. Aenean rutrum nibh eu nulla cursus, vitae mattis ante consequat. Sed vitae sem rutrum, viverra ante sit amet, suscipit lorem. Sed id orci metus. Sed tempor sapien ante, vitae consectetur nisl scelerisque vel. Aliquam vulputate lobortis vehicula. Nunc venenatis ante non felis viverra elementum. Praesent pretium lacinia commodo.</p>
+    </article>
+
+    <div>
+      <!-- Div used instead of semantic tag because I felt there is no semantic tag that would be adequate for just an image -->
+      <img src="img/car_sml.jpg" alt="Racing Car" />
+    </div>
+
+    <main>
+      <!-- List of events that the user can choose from -->
+      <h2>Welcome to the main event</h2>
+      <p>Choose an event to begin your journey</p>
+
+      <div>
+        <a href="/"><img src="img/owl_squ.jpg" alt="Owl" /></a>
+        <a href="/"><img src="img/elephant_squ.jpg" alt="Elephant" /></a>
+        <a href="/"><img src="img/horse_squ.jpg" alt="Horse" /></a>
+      </div>
+
+      <div>
+        <a href="/"><img src="img/leaf_squ.jpg" alt="Leaf" /></a>
+        <a href="/"><img src="img/shark_squ.jpg" alt="Shark" /></a>
+        <a href="/"><img src="img/view_squ.jpg" alt="View of mountains" /></a>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Arrow allows user to instantly return to the top of the screen -->
+      <a href="#top"><img src="img/arrowTop.png" alt="Up Arrow" /></a>
+      <a href="#top"><p>Back to top</p></a>
+    </footer>
+
+  </body>
+
+</html>

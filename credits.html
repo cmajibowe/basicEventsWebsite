@@ -1,0 +1,146 @@
+<!doctype html>
+<html id="top" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="source.css">
+    <title>Arts and Events</title>
+  </head>
+
+  <body>
+    
+    <!-- Div used to control the container, not used for styling -->
+    <div class="headerNavIntroContainer">
+      <!-- Any styling is done using the semantic tags -->
+      <header>
+        <h1>Arts and Events</h1>
+      </header>
+
+      <nav>
+        <!-- Access keys using numbers for anyone that requires them -->
+        <a href="/index.html" accesskey="1">Home</a>
+        <a href="/viewEvents.php" accesskey="2">View Events</a>
+        <a href="/admin.php" accesskey="3">Admin</a>
+        <a href="/credits.html" accesskey="4">Credits</a>
+        <a href="wireframe.pdf" accesskey="5" target="_blank">Wireframe</a>
+      </nav>
+
+    </div>
+
+    <section class="creditsPanel">
+
+      <h3>Credits</h3>
+
+      <p>Jacob Bowerman</p>
+      <p>W16013340</p>
+      <p>jake.bowerman@northumbria.ac.uk</p>
+
+      <div class="credits">
+        <p>Title: Carnival</p>
+        <p>URL: http://decaturcelebration.com/main/wp-content/uploads/2015/05/carnival2.gif</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Theatre</p>
+        <p>URL: http://www.edtheatres.com/uploads/puffs/venue_info_374x197/web_home_FT.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Comedy</p>
+        <p>URL: https://static.wowcher.co.uk/images/deal/67455/27526-iphone-promo.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Exhibition</p>
+        <p>URL: https://media.timeout.com/images/103250596/image.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Festival</p>
+        <p>URL: http://www.eavesopticians.co.uk/wp-content/uploads/2016/07/festival-7th-sunday.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Family</p>
+        <p>URL: http://www.allapril.com/wp-content/uploads/2016/08/shutterstock_261648890-Child-and-Family-Services.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Music</p>
+        <p>URL: http://www.thecasinomk.co.uk/imgmin/backgrounds/Live-Music.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Sport</p>
+        <p>URL: http://www.lboro.ac.uk/media/wwwlboroacuk/external/content/research/sti/slide1.png</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Dance</p>
+        <p>URL: http://www.dmu.ac.uk/webimages/Study-images/Courses/Art-Design-and-Humanities/undergraduate/dance-ba-degree/900x506-more-about-foc-uni-dance-festival.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Car</p>
+        <p>URL: http://shop.mycustomhotwheels.com/wp-content/uploads/2016/08/Redbull-Racing-Decals-for-Hot-Wheels-e1470923184780.jpg?a788e6</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Elephant</p>
+        <p>URL: https://www.walldevil.com/wallpapers/a71/thumb/african-wallpapers-elephants-cool-wallpaper-elephant-amazing.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Horse</p>
+        <p>URL: http://www.bhmpics.com/thumbs/running_horse-t3.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Leaf</p>
+        <p>URL: http://1.bp.blogspot.com/-l9_qvfKkmzU/VeAOkMREI7I/AAAAAAAAAm0/2xbopX7f8cE/s1600/2.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Main Background</p>
+        <p>URL: http://www.nmgncp.com/3840x2160-wallpapers/3532445.html</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: View</p>
+        <p>URL: http://ytimg.googleusercontent.com/vi/0ZeiVFqMaDk/mqdefault.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Shark</p>
+        <p>URL: https://i.ytimg.com/vi/yEjOD4YVX6Y/maxresdefault.jpg</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Pac Man Fruit</p>
+        <p>URL: http://wallpapersonthe.net/5796-lime-citrus-orange-fruit-photography-limes-and-an-orange/</p>
+      </div>
+
+      <div class="credits">
+        <p>Title: Owl</p>
+        <p>URL: https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg</p>
+      </div>
+
+      <hr />
+
+      <div class="credits">
+        <h4>Security Considerations</h4>
+        <p>One major security concern is the way the add event and edit event pages are coded. If an attacker was to get onto the admin page of the site, they could do some serious damage to the database data. At the moment all an attacker needs to do it write out an SQL script into one of the input boxes to manipulate the code. From here an attacker could freely alter data aswell as delete massive chunks causing massive issues for data loss as well as downtime for the website. Similarly the collumn names are exposed when moving from page to page between the edit events list page and the edit page itself. This could allow an attack to easily attack the database directly via a SQLijection attack.</p>
+        <p>Another security concern is the lack of a login system for the admin. This leaves the site completely exposed to anyone who visited the admin page. My advice would to get a password protected user system in place to restrict access to this area of the website to users who have the right credentials to log in. By doing this you increase the difficulty for an attack to gain access to the sensitive information you hold in your database.</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <!-- Arrow allows user to instantly return to the top of the screen -->
+      <a href="#top"><img src="img/arrowTop.png" alt="Up Arrow" /></a>
+      <a href="#top"><p>Back to top</p></a>
+    </footer>
+
+  </body>
+
+</html>
